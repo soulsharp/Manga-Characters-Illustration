@@ -2,9 +2,6 @@ import torch
 import torch.nn as nn 
 
 
-def Sample_Noise(dimension):
-    pass
-
 class ConvBlock(nn.Module):
     def __init__(self, in_channels, out_channels, downsample_flag=True, dropout_flag=False):
         super(ConvBlock, self).__init__()
